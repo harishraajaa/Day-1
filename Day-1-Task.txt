@@ -1,0 +1,67 @@
+1. HTTP1.1 vs HTTP 2
+
+HTTP means Hypertext transfer protocal
+
+It is used for Client - Server communication. By using HTTP user sends the request to the server & the server sends the response to the user.
+
+
+HTTP 1.1 :
+1. Created on 1997
+2. keeps all requests and responses in plain text format
+3. It uses requests resource Inlining for use getting multiple pages.
+4. Multipt TCP Request. Head of line blocking in which TCP connection is blocked all other requests until the response does not receive. all the information related to the header file is repeated in every request.
+
+HTTP 2 :
+1. Created on 2015
+2. keeps all requests and responses in Binary format
+3. It uses PUSH frame by server that collects all multiple pages.
+4. It works on fully multiplexed that is one TCP connection is used for multiple requests
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+2. Objects and its Internal Representation in Javascript
+
+
+A JavaScript object is a collection of unordered properties. Properties can usually be changed, added, and deleted, but some are read only.
+
+Objects in JavaScript are very much similar to the objects in real-life. We can see a lot of Objects around us in this real world, each with its own set of properties. For instance let us take a table in the real world, it has its own properties like height, width, and length etc. 
+Similarly all the Objects in the JavaScript are associated with its own set of properties.
+
+Example:
+
+Var Candidate = {
+'FirstName' : "Harish",
+'LastName' : "Raajaa",
+'PhoneNumber' : "12345678",
+'email' : "abc@gmail.com:}
+
+To Accessing Object Properties
+
+objectName.propertyName  -> Candidate.email
+
+or 
+
+objectName["propertyName"]  -> Candidate["email"]
+
+
+Object Methods:
+
+Objects can also have methods. Methods are actions that can be performed on objects. Methods are stored in properties as function definitions.
+
+var Candidate = {
+  firstName: "Harish",
+  lastName : "Raajaa",
+  id       : 797993,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
+};
+
+
+Objects are like Key pair storage. it is also easily accessible by looping methods to display the key and values.
+
+for (let key in Candidate) {
+    console.log(key);
+} 
+
