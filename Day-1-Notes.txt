@@ -1,0 +1,56 @@
+Browser History - Netscape first founded browser.
+
+V8 Engine is a Web assembly engine created by Google for their chrome browser
+
+
+Take a web app - 
+HTML - Gives a sheleton
+CSS - Beauty 
+JavaScript - Life (Functions)
+
+
+DOM tree vs CSSOM Tree
+
+The DOM contains all the content of the page. 
+The CSSOM contains all the information on how to style the DOM. CSSOM is similar to the DOM, but different.
+
+
+Data Types:
+Number (Integer, Float)
+String
+Boolean 
+Object (Array, Json)
+Undefined//nan//null
+
+How to declare
+
+Var a=10  - Redelaration is possible // Global Scope
+let b=100 - Redelaration not possible // Block Scope
+const pi=3.14 - Reassignment not possible
+
+OPerators
+
+1. Arithmetic OPerators (+,-,*,/,%,**)
+
+Typecast function to convert
+
+Number()
+parseInt
+parseFloat
+
+2. Logical OPerator ( &&, ||, !)
+
+3. Comparion or Relational Operator (<,>,>=,<=,==,===,!=,!==)
+
+== -> Compare only the values
+=== -> Compare both values and Datatype
+
+4. Increment or Decrement operator ( ++,--)
+
+
+
+5. Assingment Operator (=, +=,-=)
+
+6. Bitwise Operator ( &, ^
+
+
